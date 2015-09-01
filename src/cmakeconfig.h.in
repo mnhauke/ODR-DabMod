@@ -1,0 +1,17 @@
+#cmakedefine HAVE_NETINET_IN_H 1
+
+#cmakedefine HAVE_DECL__MM_MALLOC 1
+
+#cmakedefine HAVE_GETTIMEOFDAY 1
+#cmakedefine HAVE_BZERO 1
+
+#cmakedefine HAVE_KILL 1
+
+#cmakedefine HAVE_OUTPUT_UHD 1
+#cmakedefine HAVE_ZEROMQ 1
+
+#cmakedefine VERSION @VERSION@
+#cmakedefine GITVERSION @GITVERSION@
+#cmakedefine PACKAGE @PACKAGE@
+#cmakedefine PACKAGE_NAME @PACKAGE_NAME@
+
