@@ -103,7 +103,7 @@ find_package(Threads REQUIRED)
 # FFTW3
 pkg_check_modules(FFTW3 fftw3f)
 # libzmq
-pkg_check_modules(ZMQ libzmq >= 4.0)
+pkg_check_modules(ZMQ libzmq>=4.0)
 # UHD
 pkg_check_modules(UHD uhd)
 # Boost
